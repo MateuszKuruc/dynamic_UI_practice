@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <button class="menu">Menu</button>
+      <div class="drop-down hideMenu">
+        <button>Main page</button>
+        <button>Services</button>
+        <button>Shop</button>
+        <button>About us</button>
+      </div>
+    </nav>
+    <div class="carousel" data-carousel>
+      <button class="carousel-button previous" data-carousel-button="prev">
+        &#8656;
+      </button>
+      <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+      <ul data-slides>
+        <li class="slide" data-active>
+          <img src="./img/robben1.jpeg" alt="Arjen Robben"  />
+        </li>
+        <li class="slide" >
+          <img src="./img/ribery1.jpeg" alt="Franck Ribery"  />
+        </li>
+        <li class="slide">
+          <img src="./img/muller1.jpeg" alt="Thomas Muller"  />
+        </li>
+      </ul>
+     
+    </div>
+    <div class="sliderNav">
+        <button class="navButtons" data-nav data-button="1"></button>
+        <button class="navButtons" data-button="2"></button>
+        <button class="navButtons" data-button="3"></button>
+      </div>
+  </body>
+</html>
